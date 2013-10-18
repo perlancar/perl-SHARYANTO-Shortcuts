@@ -21,6 +21,11 @@ sub dd {
  % perl -MDDJ -E'dd $my_data'
 
 
+=head1 FUNCTIONS
+
+=head2 dd
+
+
 =head1 SEE ALSO
 
 L<DD>

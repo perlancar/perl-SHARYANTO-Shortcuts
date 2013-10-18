@@ -14,6 +14,8 @@ our @EXPORT_OK = @Data::Dump::OneLine::EXPORT_OK;
 1;
 # ABSTRACT: Shortcut for Data::Dump::OneLine
 
+=for Pod::Coverage ^(dd)$
+
 =head1 SYNOPSIS
 
  % perl -MDD1 -E'dd $my_data'
