@@ -1,0 +1,26 @@
+#!/usr/bin/perl
+
+package httpthis;
+
+use strict;
+use warnings;
+use App::HTTPThis;
+
+# VERSION
+
+App::HTTPThis->new->run;
+
+1;
+# ABSTRACT: export the current directory over HTTP
+# PODNAME: httpthis
+
+=head1 DESCRIPTION
+
+This is an alias for http_this in the App-HTTPThis CPAN distribution.
+
+
+=head1 SEE ALSO
+
+L<http_this>
+
+=cut
