@@ -10,4 +10,9 @@ package SHARYANTO::Shortcuts;
 This distribution contains shortcut names for various modules that I often use,
 mostly for one-liners. It does not reside on CPAN, for obvious reason.
 
+
+=head1 SEE ALSO
+
+L<SHARYANTO>
+
 =cut
