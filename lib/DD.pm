@@ -2,6 +2,7 @@ package DD;
 
 # VERSION
 
+BEGIN { require Data::Dump }
 use Data::Dump (@Data::Dump::EXPORT,
                 @Data::Dump::EXPORT_OK);
 
@@ -19,7 +20,8 @@ our @EXPORT_OK = @Data::Dump::EXPORT_OK;
 
 =head1 DESCRIPTION
 
-It also exports C<dump> by default, so you can do:
+It imports all Data::Dump's exports. It also exports C<dump> by default, so
+you can do:
 
  die dump $data;
 

@@ -2,6 +2,7 @@ package DD1;
 
 # VERSION
 
+require Data::Dump::OneLine;
 use Data::Dump::OneLine (@Data::Dump::OneLine::EXPORT,
                          @Data::Dump::OneLine::EXPORT_OK);
 
@@ -23,7 +24,8 @@ our @EXPORT_OK = @Data::Dump::OneLine::EXPORT_OK;
 
 =head1 DESCRIPTION
 
-It exports C<dd> which is an alias for C<dump1>.
+It imports all Data::Dump::OneLine's exports. It exports C<dd> which is an
+alias for C<dump1>.
 
 
 =head1 SEE ALSO

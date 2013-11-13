@@ -1,6 +1,6 @@
 package LAA;
 
-use parent qw(Data::Dump::Color);
+use parent qw(Log::Any::App);
 
 # VERSION
 
