@@ -1,5 +1,14 @@
 Revision history for SHARYANTO-Shortcuts
 
+0.05    2013-11-13 (Steven Haryanto)
+
+        - Bugfix: Require module before using its @EXPORT/@EXPORT_OK.
+
+        - Bugfix: Typo.
+
+        - Add shortcut module: DE (for Devel::EndStats).
+
+
 0.04    2013-10-25 (Steven Haryanto)
 
         - Add script: httpthis as "shortcut" for http_this (App::HTTPThis).
