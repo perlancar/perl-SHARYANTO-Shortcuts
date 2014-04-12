@@ -22,4 +22,9 @@ sub import {
 
 Typing C<-MLAAl> is slightly shorter than C<-MLAA='$log'>.
 
+
+=head1 BUGS
+
+Does not work with L<strict> yet. Boo-hoo.
+
 =cut
