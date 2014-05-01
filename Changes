@@ -1,5 +1,10 @@
 Revision history for SHARYANTO-Shortcuts
 
+0.06    2014-05-01 (Steven Haryanto)
+
+        - Add modules: DDe, DDCe.
+
+
 0.05    2013-11-13 (Steven Haryanto)
 
         - Bugfix: Require module before using its @EXPORT/@EXPORT_OK.
