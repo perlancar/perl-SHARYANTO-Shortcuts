@@ -27,8 +27,8 @@ sub to_yaml {
 
 =head1 DESCRIPTION
 
-JSON exports C<from_json> and C<to_json> by default. This module mimics is the
-YAML counterpart of that. It currently uses L<YAML::Syck>.
+JSON exports C<from_json> and C<to_json> by default. This module is the YAML
+counterpart of that. It currently uses L<YAML::Syck>.
 
 
 =head1 FUNCTIONS
