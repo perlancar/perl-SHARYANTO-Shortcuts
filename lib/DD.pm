@@ -2,7 +2,10 @@ package DD;
 
 # VERSION
 
+# we need this first to get @Data::Dump::EXPORT et al
 BEGIN { require Data::Dump }
+
+# then we import
 use Data::Dump (@Data::Dump::EXPORT,
                 @Data::Dump::EXPORT_OK);
 
