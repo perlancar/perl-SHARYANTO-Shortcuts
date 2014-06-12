@@ -14,6 +14,14 @@ App::HTTPThis->new->run;
 # ABSTRACT: export the current directory over HTTP
 # PODNAME: httpthis
 
+=head1 SYNOPSIS
+
+ % httpthis
+
+For more options, see L<http_this> (use C<man http_this> or C<http_this
+--help>).
+
+
 =head1 DESCRIPTION
 
 This is an alias for http_this in the App-HTTPThis CPAN distribution.
