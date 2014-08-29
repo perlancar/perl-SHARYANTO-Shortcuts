@@ -13,8 +13,8 @@ our @ISA = qw(Exporter);
 our @EXPORT    = (@Data::Dump::EXPORT, "dump");
 our @EXPORT_OK = @Data::Dump::EXPORT_OK;
 
-sub dd  { Data::Dump::dd( @_); @_ }
-sub ddx { Data::Dump::ddx(@_); @_ }
+sub dd  { Data::Dump::dd( @_); wantarray ? @_ : $_[0] }
+sub ddx { Data::Dump::ddx(@_); wantarray ? @_ : $_[0] }
 
 1;
 # ABSTRACT: Shortcut for Data::Dump
