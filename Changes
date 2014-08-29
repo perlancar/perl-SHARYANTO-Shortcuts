@@ -1,5 +1,11 @@
 Revision history for SHARYANTO-Shortcuts
 
+0.09    2014-08-30 (Steven Haryanto)
+
+        - [Bugfix] DD & DDC: dd() & ddx(): when returning original arguments,
+          need to check wantarray().
+
+
 0.08    2014-08-29 (Steven Haryanto)
 
         - DD & DDC: dd() & ddx() now return their original arguments, so they
