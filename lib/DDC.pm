@@ -1,17 +1,22 @@
 package DDC;
 
+# DATE
 # VERSION
 
 BEGIN { require Data::Dump::Color }
-use Data::Dump::Color (@Data::Dump::Color::EXPORT,
-                       @Data::Dump::Color::EXPORT_OK);
+use Data::Dump::Color (@Data::Dump::Color::EXPORT_OK);
 
 our @ISA = qw(Exporter);
 our @EXPORT    = (@Data::Dump::Color::EXPORT, "dump");
 our @EXPORT_OK = @Data::Dump::Color::EXPORT_OK;
 
+sub dd  { Data::Dump::dd( @_); @_ }
+sub ddx { Data::Dump::ddx(@_); @_ }
+
 1;
 # ABSTRACT: Shortcut for Data::Dump::Color
+
+=for Pod::Coverage .+
 
 =head1 SYNOPSIS
 
@@ -20,10 +25,13 @@ our @EXPORT_OK = @Data::Dump::Color::EXPORT_OK;
 
 =head1 DESCRIPTION
 
-It imports all Data::Dump::Color's exports. It also exports C<dump> by
-default, so you can do:
+It imports all Data::Dump::Color's exports. It also exports C<dump> by default,
+so you can do:
 
  die dump $data;
+
+In addition, it also changes dd() and ddx() to return the original arguments, so
+they can be inserted into expressions.
 
 
 =head1 SEE ALSO
