@@ -10,8 +10,8 @@ our @ISA = qw(Exporter);
 our @EXPORT    = (@Data::Dump::Color::EXPORT, "dump");
 our @EXPORT_OK = @Data::Dump::Color::EXPORT_OK;
 
-sub dd  { Data::Dump::dd( @_); wantarray ? @_ : $_[0] }
-sub ddx { Data::Dump::ddx(@_); wantarray ? @_ : $_[0] }
+sub dd  { Data::Dump::Color::dd( @_); wantarray ? @_ : $_[0] }
+sub ddx { Data::Dump::Color::ddx(@_); wantarray ? @_ : $_[0] }
 
 1;
 # ABSTRACT: Shortcut for Data::Dump::Color
