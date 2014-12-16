@@ -12,7 +12,7 @@ App::HTTPThis->new->run;
 
 1;
 # ABSTRACT: export the current directory over HTTP
-# PODNAME: httpthis
+# PODNAME:
 
 =head1 SYNOPSIS
 
