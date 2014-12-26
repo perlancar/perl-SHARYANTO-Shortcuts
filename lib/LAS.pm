@@ -23,4 +23,12 @@ is equivalent to:
  use Log::Any::Adapter;
  Log::Any::Adapter->set('ScreenColoredLevel');
 
+and in command-line:
+
+ perl -MLAS -E ...
+
+is equivalent to:
+
+ perl -MLog::Any::Adapter=ScreenColoredLevel -E ...
+
 =cut
