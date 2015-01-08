@@ -1,5 +1,16 @@
 Revision history for SHARYANTO-Shortcuts
 
+0.12    2015-01-08 (Steven Haryanto)
+
+	- Remove CA, CAC, CAD (DC is now recommended as replacement as it
+	  bundles color/dump/etc functionalities.
+
+	- Add DC as a shortcut for Devel::Confess.
+
+	- Add note in Synopsis that Log::Any::Adapter accepts import
+	  argument containing adapter class.
+
+
 0.11    2014-11-13 (PERLANCAR)
 
 	- Update prereqs.
