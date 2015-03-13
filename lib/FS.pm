@@ -1,29 +1,29 @@
 package FS;
 
+# DATE
+# VERSION
+
 # we do this first to get @EXPORT_OK
-BEGIN { require File::Slurp::Tiny }
+BEGIN { require File::Slurper }
 
 # then we import
-use File::Slurp::Tiny @File::Slurp::Tiny::EXPORT_OK;
+use File::Slurper @File::Slurper::EXPORT_OK;
 
 our @ISA = qw(Exporter);
-our @EXPORT_OK = @File::Slurp::Tiny::EXPORT_OK;
-our @EXPORT = qw(read_file write_file);
-
-# VERSION
-# DATE
+our @EXPORT_OK = @File::Slurper::EXPORT_OK;
+our @EXPORT = @EXPORT_OK;
 
 1;
-# ABSTRACT: Shortcut for File::Slurp::Tiny
+# ABSTRACT: Shortcut for File::Slurper
 
 =head1 SYNOPSIS
 
- % perl -MFS -E'$content = read_file("blah.txt")'
+ % perl -MFS -E'$content = read_text("blah.txt")'
 
 
 =head1 DESCRIPTION
 
-In addition to the short name, FS also imports C<read_file> and C<write_files>
-by default.
+In addition to the short name, FS also imports all File::Slurper routines by
+default (read_text, write_text, read_binary, write_binary, et al).
 
 =cut
