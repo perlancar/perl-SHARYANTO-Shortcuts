@@ -4,10 +4,10 @@ package LAS;
 # VERSION
 
 use Log::Any::Adapter;
-Log::Any::Adapter->set('ScreenColoredLevel');
+Log::Any::Adapter->set('Screen');
 
 1;
-# ABSTRACT: Shortcut for using Log::Any::Adapter::ScreenColoredLevel
+# ABSTRACT: Shortcut for using Log::Any::Adapter::Screen
 
 =head1 SYNOPSIS
 
@@ -21,7 +21,7 @@ Log::Any::Adapter->set('ScreenColoredLevel');
 is equivalent to:
 
  use Log::Any::Adapter;
- Log::Any::Adapter->set('ScreenColoredLevel');
+ Log::Any::Adapter->set('Screen');
 
 and in command-line:
 
@@ -29,6 +29,6 @@ and in command-line:
 
 is equivalent to:
 
- perl -MLog::Any::Adapter=ScreenColoredLevel -E ...
+ perl -MLog::Any::Adapter=Screen -E ...
 
 =cut
