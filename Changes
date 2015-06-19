@@ -1,5 +1,13 @@
 Revision history for SHARYANTO-Shortcuts
 
+0.13    2015-06-19 (Steven Haryanto)
+
+	- No functional changes.
+
+	- Update prereq name
+	  Log::Any::Adapter::{ScreenColoredLevel,Screen}.
+
+
 0.12    2015-01-08 (Steven Haryanto)
 
 	- Remove CA, CAC, CAD (DC is now recommended as replacement as it
