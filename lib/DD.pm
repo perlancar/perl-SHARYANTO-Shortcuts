@@ -1,6 +1,8 @@
 package DD;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 # we need this first to get @Data::Dump::EXPORT et al

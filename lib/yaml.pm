@@ -1,8 +1,11 @@
 package yaml;
 
-use YAML::Syck;
-
+# AUTHORITY
+# DATE
+# DIST
 # VERSION
+
+use YAML::Syck;
 
 require Exporter;
 our @ISA = qw(Exporter);

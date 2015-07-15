@@ -1,5 +1,8 @@
 package DDe;
 
+# AUTHORITY
+# DATE
+# DIST
 # VERSION
 
 use everywhere qw(DD);

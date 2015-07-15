@@ -1,9 +1,12 @@
 package DDJ;
 
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
+
 use 5.010001;
 use JSON;
-
-# VERSION
 
 require Exporter;
 our @ISA = qw(Exporter);

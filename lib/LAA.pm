@@ -1,8 +1,11 @@
 package LAA;
 
-use parent qw(Log::Any::App);
-
+# AUTHORITY
+# DATE
+# DIST
 # VERSION
+
+use parent qw(Log::Any::App);
 
 1;
 # ABSTRACT: Shortcut for Log::Any::App

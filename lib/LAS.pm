@@ -1,6 +1,8 @@
 package LAS;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 use Log::Any::Adapter;

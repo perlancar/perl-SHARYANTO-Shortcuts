@@ -1,5 +1,8 @@
 package DDCe;
 
+# AUTHORITY
+# DATE
+# DIST
 # VERSION
 
 use everywhere qw(DDC);
