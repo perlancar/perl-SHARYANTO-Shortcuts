@@ -1,9 +1,12 @@
 package DDY;
 
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
+
 use 5.010001;
 use YAML::Syck;
-
-# VERSION
 
 require Exporter;
 our @ISA = qw(Exporter);

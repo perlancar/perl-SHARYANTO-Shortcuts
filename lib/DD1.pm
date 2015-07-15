@@ -1,5 +1,8 @@
 package DD1;
 
+# AUTHORITY
+# DATE
+# DIST
 # VERSION
 
 require Data::Dump::OneLine;

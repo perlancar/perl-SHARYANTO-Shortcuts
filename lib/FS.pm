@@ -1,6 +1,8 @@
 package FS;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 # we do this first to get @EXPORT_OK

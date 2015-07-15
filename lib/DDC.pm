@@ -1,6 +1,8 @@
 package DDC;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 BEGIN { require Data::Dump::Color }
