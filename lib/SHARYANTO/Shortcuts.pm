@@ -1,5 +1,8 @@
 package SHARYANTO::Shortcuts;
 
+# AUTHORITY
+# DATE
+# DIST
 # VERSION
 
 1;

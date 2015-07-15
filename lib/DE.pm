@@ -1,5 +1,8 @@
 package DE;
 
+# AUTHORITY
+# DATE
+# DIST
 # VERSION
 
 use parent qw(Devel::EndStats);
@@ -18,4 +21,3 @@ use parent qw(Devel::EndStats);
 =head1 SEE ALSO
 
 =cut
-

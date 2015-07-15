@@ -1,6 +1,8 @@
 package DC;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 require Devel::Confess;
