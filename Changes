@@ -1,5 +1,11 @@
 Revision history for SHARYANTO-Shortcuts
 
+0.14    2016-02-27 (Steven Haryanto)
+
+	- DD, DDC: do not export 'dump' because I never use it and it has
+	  the possibility of clashing with existing method.
+
+
 0.13    2015-06-19 (Steven Haryanto)
 
 	- No functional changes.
