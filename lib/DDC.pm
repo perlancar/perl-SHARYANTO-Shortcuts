@@ -9,7 +9,7 @@ BEGIN { require Data::Dump::Color }
 use Data::Dump::Color (@Data::Dump::Color::EXPORT_OK);
 
 our @ISA = qw(Exporter);
-our @EXPORT    = (@Data::Dump::Color::EXPORT, "dump");
+our @EXPORT    = (@Data::Dump::Color::EXPORT);
 our @EXPORT_OK = @Data::Dump::Color::EXPORT_OK;
 
 sub dd  { Data::Dump::Color::dd( @_); wantarray ? @_ : $_[0] }
@@ -27,10 +27,7 @@ sub ddx { Data::Dump::Color::ddx(@_); wantarray ? @_ : $_[0] }
 
 =head1 DESCRIPTION
 
-It imports all Data::Dump::Color's exports. It also exports C<dump> by default,
-so you can do:
-
- die dump $data;
+It imports all Data::Dump::Color's exports.
 
 In addition, it also changes dd() and ddx() to return the original arguments, so
 they can be inserted into expressions.
