@@ -5,6 +5,7 @@ package LGS;
 # DIST
 # VERSION
 
+use Log::ger::LevelFromEnv;
 use Log::ger::Output;
 Log::ger::Output->set('Screen');
 
