@@ -1,3 +1,8 @@
+0.17    2017-06-19 (Steven Haryanto)
+
+	- LGS: use Log::ger::LevelFromEnv.
+
+
 0.16    2017-06-19 (Steven Haryanto)
 
         - Add LGS as shortcut for using Log::ger::Output::Screen.
