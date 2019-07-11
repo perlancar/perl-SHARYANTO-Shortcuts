@@ -1,26 +1,26 @@
-0.17    2017-06-19 (Steven Haryanto)
+0.17    2017-06-19  Released-By: Steven Haryanto
 
 	- LGS: use Log::ger::LevelFromEnv.
 
 
-0.16    2017-06-19 (Steven Haryanto)
+0.16    2017-06-19  Released-By: Steven Haryanto
 
         - Add LGS as shortcut for using Log::ger::Output::Screen.
 
 
-0.15    2017-02-10 (Steven Haryanto)
+0.15    2017-02-10  Released-By: Steven Haryanto
 
         - Remove shortcuts: DD & DDC (I'm now publishing DD on CPAN, though
           still unindexed now), DD1 & DDCe & DDJ & DDY & DDe (never used).
 
 
-0.14    2016-02-27 (Steven Haryanto)
+0.14    2016-02-27  Released-By: Steven Haryanto
 
 	- DD, DDC: do not export 'dump' because I never use it and it has
 	  the possibility of clashing with existing method.
 
 
-0.13    2015-06-19 (Steven Haryanto)
+0.13    2015-06-19  Released-By: Steven Haryanto
 
 	- No functional changes.
 
@@ -28,7 +28,7 @@
 	  Log::Any::Adapter::{ScreenColoredLevel,Screen}.
 
 
-0.12    2015-01-08 (Steven Haryanto)
+0.12    2015-01-08  Released-By: Steven Haryanto
 
 	- Remove CA, CAC, CAD (DC is now recommended as replacement as it
 	  bundles color/dump/etc functionalities.
@@ -39,39 +39,39 @@
 	  argument containing adapter class.
 
 
-0.11    2014-11-13 (PERLANCAR)
+0.11    2014-11-13  Released-By: PERLANCAR
 
 	- Update prereqs.
 
 
-0.10    2014-10-10 (PERLANCAR)
+0.10    2014-10-10  Released-By: PERLANCAR
 
 	- [Bugfix] Used wrong package.
 
 
-0.09    2014-08-30 (Steven Haryanto)
+0.09    2014-08-30  Released-By: Steven Haryanto
 
         - [Bugfix] DD & DDC: dd() & ddx(): when returning original arguments,
           need to check wantarray().
 
 
-0.08    2014-08-29 (Steven Haryanto)
+0.08    2014-08-29  Released-By: Steven Haryanto
 
         - DD & DDC: dd() & ddx() now return their original arguments, so they
           can be inserted into expressions. Inspired by XXX.
 
 
-0.07    2014-05-27 (Steven Haryanto)
+0.07    2014-05-27  Released-By: Steven Haryanto
 
         - Add module: FS.
 
 
-0.06    2014-05-01 (Steven Haryanto)
+0.06    2014-05-01  Released-By: Steven Haryanto
 
         - Add modules: DDe, DDCe.
 
 
-0.05    2013-11-13 (Steven Haryanto)
+0.05    2013-11-13  Released-By: Steven Haryanto
 
         - Bugfix: Require module before using its @EXPORT/@EXPORT_OK.
 
@@ -80,21 +80,21 @@
         - Add shortcut module: DE (for Devel::EndStats).
 
 
-0.04    2013-10-25 (Steven Haryanto)
+0.04    2013-10-25  Released-By: Steven Haryanto
 
         - Add script: httpthis as "shortcut" for http_this (App::HTTPThis).
 
 
-0.03    2013-10-24 (Steven Haryanto)
+0.03    2013-10-24  Released-By: Steven Haryanto
 
         - No functional changes. Rebuild.
 
 
-0.02    2013-10-21 (Steven Haryanto)
+0.02    2013-10-21  Released-By: Steven Haryanto
 
         - Fix main module name.
 
 
-0.01    2013-10-18 (Steven Haryanto)
+0.01    2013-10-18  Released-By: Steven Haryanto
 
         - First release.
